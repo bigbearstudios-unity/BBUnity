@@ -6,9 +6,9 @@ using System.Reflection;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using BBUnity.Entities.Building;
+using BBUnity.Entities;
 
-using BBUnity.Gameplay.Entities;
-using BBUnity.Gameplay.Entities.Building;
 
 namespace BBUnity.Smoke.Tests {
 

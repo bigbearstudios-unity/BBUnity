@@ -2,10 +2,10 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-using BBUnity.Gameplay.Levels.Elements;
 using BBUnity.Generation.Chunks;
 using BBUnity.Generation.Grid;
 using BBUnity.Generation.Placement;
+using BBUnity.World.Elements;
 
 namespace BBUnity.Editor.Generation {
 

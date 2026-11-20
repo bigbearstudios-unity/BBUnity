@@ -5,7 +5,8 @@ using UnityEngine.UIElements;
 
 using BBUnity.Editor.Generation;
 using BBUnity.Editor.Toolkit;
-using BBUnity.Gameplay.Levels.Elements;
+using BBUnity.World.Elements;
+using BBUnity.World;
 
 namespace BBUnity.Editor.Windows {
 

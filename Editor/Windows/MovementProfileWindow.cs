@@ -4,9 +4,10 @@ using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 using BBUnity.Editor.Generation;
+using BBUnity.Editor.Platformer.Generation;
 using BBUnity.Editor.Toolkit;
-using BBUnity.Generation.Platformer.Movement;
-using BBUnity.Generation.Platformer.Templates;
+using BBUnity.Platformer.Generation.Movement;
+using BBUnity.Platformer.Generation.Templates;
 
 namespace BBUnity.Editor.Windows {
 

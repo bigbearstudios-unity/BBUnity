@@ -5,6 +5,7 @@ using UnityEngine;
 using NUnit.Framework;
 using UnityEngine.TestTools;
 
+using BBUnity.Spawning;
 using BBUnity.Support.Testing;
 
 namespace BBUnity.Pools.Tests {

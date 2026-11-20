@@ -1,0 +1,21 @@
+{
+    "name": "Unity.BBUnity.2D.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.BBUnity",
+        "Unity.BBUnity.Generation",
+        "Unity.BBUnity.2D",
+        "Unity.BBUnity.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

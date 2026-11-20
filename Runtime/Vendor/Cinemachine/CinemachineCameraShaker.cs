@@ -2,7 +2,7 @@ using UnityEngine;
 
 using Unity.Cinemachine;
 
-using BBUnity.Gameplay.Controllers;
+using BBUnity.CameraSystem;
 
 namespace BBUnity.Vendor.Cinemachine {
 

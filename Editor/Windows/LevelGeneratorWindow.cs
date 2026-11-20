@@ -8,18 +8,20 @@ using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 using BBUnity.Editor.Generation;
+using BBUnity.Editor.Platformer.Generation;
 using BBUnity.Editor.Toolkit;
-using BBUnity.Gameplay.Levels.Elements;
-using BBUnity.Gameplay.Levels.Generation;
 using BBUnity.Generation.Grid;
 using BBUnity.Generation.Parameters;
 using BBUnity.Generation.Pipeline;
 using BBUnity.Generation.Placement;
-using BBUnity.Generation.Platformer;
-using BBUnity.Generation.Platformer.Reachability;
-using BBUnity.Generation.Platformer.Templates;
+using BBUnity.Platformer.Generation;
+using BBUnity.Platformer.Generation.Reachability;
+using BBUnity.Platformer.Generation.Templates;
 using BBUnity.Generation.Templates;
 using BBUnity.Tiles;
+using BBUnity.World.Elements;
+using BBUnity.World.Generation;
+using BBUnity.World;
 
 namespace BBUnity.Editor.Windows {
 
@@ -323,7 +325,7 @@ namespace BBUnity.Editor.Windows {
                 _template != null ? _template.name : "Generated",
                 null,
                 new EditorElementInstantiator(),
-                _palette
+                _palette != null ? new TilemapLevelPainter(_palette) : null
             );
 
             Selection.activeGameObject = root.gameObject;

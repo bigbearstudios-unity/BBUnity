@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
-        "Unity.BBUnity"
+        "Unity.BBUnity",
+        "Unity.BBUnity.2D"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

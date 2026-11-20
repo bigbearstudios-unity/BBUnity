@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-using BBUnity.Gameplay.Levels.Elements;
 using BBUnity.Generation.Grid;
 using BBUnity.Generation.Pipeline;
 using BBUnity.Generation.Placement;
 using BBUnity.Generation.Rooms;
+using BBUnity.World.Elements;
 
 namespace BBUnity.Editor.Generation {
 

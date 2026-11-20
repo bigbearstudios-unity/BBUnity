@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-using BBUnity.Gameplay.Controllers;
-using BBUnity.Gameplay.Entities.Controllers;
-using BBUnity.Gameplay.UI.FloatingText;
+using BBUnity.Audio;
+using BBUnity.Controllers;
+using BBUnity.Entities;
+using BBUnity.GameFlow;
+using BBUnity.UI.FloatingText;
 using BBUnity.UI;
 
 namespace BBUnity.Editor.Support.ComponentManagement {

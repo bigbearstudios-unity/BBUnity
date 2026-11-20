@@ -1,0 +1,17 @@
+{
+    "name": "Unity.BBUnity.2D",
+    "rootNamespace": "",
+    "references": [
+        "Unity.BBUnity",
+        "Unity.BBUnity.Generation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

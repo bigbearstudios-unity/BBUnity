@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using BBUnity.Entities.Building;
 
-using BBUnity.Gameplay.Entities.Building;
 
 namespace BBUnity.Core {
 

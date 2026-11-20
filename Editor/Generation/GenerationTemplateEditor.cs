@@ -5,7 +5,6 @@ using UnityEditor;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine.UIElements;
 
-using BBUnity.Editor.Gameplay.Entities.Controllers;
 using BBUnity.Editor.Toolkit;
 using BBUnity.Generation.Pipeline;
 using BBUnity.Generation.Templates;

@@ -7,9 +7,9 @@ using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 using BBUnity.Editor.Toolkit;
-using BBUnity.Gameplay.Levels.Elements;
 using BBUnity.Generation.Placement;
 using BBUnity.Generation.Rooms;
+using BBUnity.World.Elements;
 
 namespace BBUnity.Editor.Generation {
 

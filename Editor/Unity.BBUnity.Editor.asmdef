@@ -4,7 +4,8 @@
     "references": [
         "Unity.BBUnity",
         "Unity.BBUnity.Generation",
-        "Unity.BBUnity.Generation.Platformer",
+        "Unity.BBUnity.Platformer",
+        "Unity.BBUnity.2D",
         "Unity.TextMeshPro",
         "Unity.InputSystem"
     ],

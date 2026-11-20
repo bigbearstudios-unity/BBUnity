@@ -6,7 +6,6 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-using BBUnity.Editor.Gameplay.Entities.Controllers;
 using BBUnity.Editor.Toolkit;
 
 namespace BBUnity.Editor.Generation {

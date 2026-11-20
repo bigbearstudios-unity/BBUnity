@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
+using BBUnity.World;
 
-using BBUnity.Gameplay.Levels.Generation;
 
 namespace BBUnity.Editor.Generation {
 
