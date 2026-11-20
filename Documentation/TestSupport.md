@@ -6,7 +6,7 @@ GameObject lifecycle helpers, and assertion extensions for Unity-specific types.
 ## Setup
 
 ```csharp
-using TestSupport;
+using BBUnity.Support.Testing;
 ```
 
 ---
@@ -111,7 +111,7 @@ UnityAssert.AreEqual(Vector3.zero, Vector3.zero, tolerance: 0.01f);
 
 Assert a predicate holds for every element. Halts at the first failure —
 subsequent failures in the same array are not reported in the same test run
-(standard NUnit behaviour).
+(standard NUnit behavior).
 
 ```csharp
 UnityAssert.IsTrue(array,    v => v.IsActive);

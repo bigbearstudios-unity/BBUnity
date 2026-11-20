@@ -1,0 +1,25 @@
+{
+    "name": "Unity.BBUnity.Vendor.Cinemachine",
+    "rootNamespace": "",
+    "references": [
+        "Unity.BBUnity",
+        "Unity.Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "BBUNITY_CINEMACHINE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "BBUNITY_CINEMACHINE"
+        }
+    ],
+    "noEngineReferences": false
+}

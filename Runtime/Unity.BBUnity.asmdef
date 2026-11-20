@@ -2,7 +2,9 @@
     "name": "Unity.BBUnity",
     "rootNamespace": "",
     "references": [
-        "Unity.BBUnityCore"
+        "Unity.BBUnity.Generation",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,0 +1,22 @@
+{
+    "name": "Unity.BBUnity.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.BBUnity",
+        "Unity.BBUnity.Generation",
+        "Unity.BBUnity.Generation.Platformer",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

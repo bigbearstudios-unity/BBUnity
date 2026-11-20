@@ -8,7 +8,7 @@ Converts an integer to a standard Roman numeral string using subtractive notatio
 Valid input range is **1–3999**. Throws `ArgumentOutOfRangeException` outside that range.
 
 ```csharp
-using Conversion;
+using BBUnity.Support.Conversion;
 
 NumberTo.RomanNumeral(1);    // I
 NumberTo.RomanNumeral(4);    // IV
@@ -24,7 +24,7 @@ Converts a non-negative integer to its uppercase hexadecimal string.
 Throws `ArgumentOutOfRangeException` for negative values.
 
 ```csharp
-using Conversion;
+using BBUnity.Support.Conversion;
 
 NumberTo.Hex(0);   // 0
 NumberTo.Hex(10);  // A
@@ -40,7 +40,7 @@ When the score fills all available digits the padding is automatically reduced t
 Throws `ArgumentOutOfRangeException` for negative scores or a `places` value below 1.
 
 ```csharp
-using Conversion;
+using BBUnity.Support.Conversion;
 
 NumberTo.RetroScore(1);           // 0000000001
 NumberTo.RetroScore(100);         // 0000000100

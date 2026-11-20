@@ -1,0 +1,10 @@
+using BBUnity.Gameplay.Statistics.Generic;
+
+namespace BBUnity.Gameplay.Statistics.Specialized {
+    
+    [System.Serializable]
+    public class Health : DynamicIntegerStatistic {
+
+        public bool Dead { get { return _current <= 0; } }
+    }
+}
